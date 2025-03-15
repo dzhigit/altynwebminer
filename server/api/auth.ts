@@ -6,7 +6,7 @@ export default defineEventHandler(async (event: H3Event) => {
   const query = getQuery(event);
 
   // Проверяем подпись Telegram
-  //const secret = crypto.createHash('sha256').update('6999421299:AAHLOIqtrQm-asgewmxwgykytVEQk-KF3do').digest();
+  
 
   // Проверяем подпись Telegram
   const secret = crypto
